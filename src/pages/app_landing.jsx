@@ -110,10 +110,10 @@ export const AppLanding = () => {
         </h1>
         <img src={asset4} className="md:w-4/12 xs:w-10/12" />
         <p className="md:text-xl text-base lg:w-4/12 text-[#9C9EB1] text-center">
-          Welcome to seamless home management. Our intuitive, user-friendly app
-          is designed to simplify your life - schedule services, track arrivals,
-          and manage all your needs at the touch of a button. Embrace a new
-          standard of convenience, tailored to your lifestyle
+          Our platform offers providers an intuitive, easy-to-use interface for
+          scheduling services, tracking arrivals, and managing all your tasks
+          with ease. It's time to embrace convenience, optimize your operations,
+          and boost your income.
         </p>
         <button
           onClick={Joinus}
@@ -209,16 +209,17 @@ export const AppLanding = () => {
         ref={(ref) => (sectionsRef.current[3] = ref)}
       >
         <div className="max-w-[1280px] mx-auto text-center">
-          <h3 className="text-primary_blue">Get started</h3>
+          <h3 className="text-primary_blue">Building Trust</h3>
           <h1
             className="md:text-7xl md:text-5xl text-4xl font-bold text-white mt-5"
             style={{ lineHeight: "1.2" }}
           >
-            Building Trust
+            Our Simple
             <span className="text-primary_blue ">
               {" "}
-              Our Simple <br></br> 4-Step Identity Verification Process
+              <br></br> 4-Step
             </span>
+            &nbsp; Identity Verification Process
           </h1>
 
           <div className="md:flex justify-between item-center mt-24 ">
