@@ -64,7 +64,7 @@ export const AppLanding = () => {
   };
   return (
     <div className="bg-white scroll-smooth scroller">
-      <div className="bg-[#DFE7FF]  Appsection ">
+      <div className="bg-[#DFE7FF]  Appsection">
         <AppNavbar onClick={Joinus} />
 
         <div
@@ -77,12 +77,12 @@ export const AppLanding = () => {
             </h4>
             <div className="flex flex-col items-center">
               <h1 className="w-100 mt-4 text-black lg:text-8xl md:text-6xl xs:text-3xl text-2xl font-semibold inline-flex items-baseline ">
-                Easy Earning Starts Here
+                Grow your Income with Home Services
                 {/* <img src={asset1} className="w-32 h-14 mx-4" /> */}
               </h1>
               <h1 className="text-black lg:text-8xl md:text-6xl xs:text-3xl text-2xl md:mt-5 mt-2 font-semibold inline-flex items-center ">
                 {" "}
-                <img src={asset2} className="md:w-32 hidden md:block  mx-4" />
+                {/* <img src={asset2} className="md:w-32 hidden md:block  mx-4" /> */}
                 <button
                   onClick={Joinus}
                   type="button"
