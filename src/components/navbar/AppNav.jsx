@@ -4,7 +4,7 @@ import { useNavigate, useLocation } from "react-router-dom";
 
 export const AppNavbar = ({ onClick }) => {
   const [currenturl, setCurrentUrl] = useState("");
-
+  const Navigate = useNavigate();
   const location = useLocation();
   const { pathname } = location;
   useEffect(() => {
@@ -38,11 +38,11 @@ export const AppNavbar = ({ onClick }) => {
               </button>
             ) : (
               <button
-                onClick={onClick}
+                onClick={()=>{Navigate("/provider")}}
                 type="button"
                 className="rounded-3xl bg-primary_blue px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >
-                Register as an Professional
+                Register as a Professional
               </button>
             )}
           </div>
