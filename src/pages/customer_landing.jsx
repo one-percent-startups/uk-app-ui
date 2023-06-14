@@ -16,6 +16,8 @@ import asset7 from "../assets/images/Group84.png";
 import asset8 from "../assets/images/Group66.png";
 import asset9 from "../assets/images/asset9.png";
 import asset10 from "../assets/images/Group87.png";
+import asset11 from "../assets/images/Group19.png";
+import asset12 from "../assets/images/Group20.png";
 import lightLogo from "../assets/images/LogoWhite.png";
 import {
   BsTwitter,
@@ -27,7 +29,7 @@ import {
 // import {CheckIcon} from "@heroicons/react/20"
 import { CheckIcon } from "@heroicons/react/20/solid";
 
-export const CustomerLanding = () => {
+export const AppLanding = () => {
   const sectionsRef = useRef([]);
   const [open, setOpen] = useState(false);
 
@@ -77,7 +79,7 @@ export const CustomerLanding = () => {
             </h4>
             <div className="flex flex-col items-center">
               <h1 className="w-100 mt-4 text-black lg:text-8xl md:text-6xl xs:text-3xl text-2xl font-semibold inline-flex items-baseline ">
-                Grow your Income with Home Services
+                Easy Living Starts Here
                 {/* <img src={asset1} className="w-32 h-14 mx-4" /> */}
               </h1>
               <h1 className="text-black lg:text-8xl md:text-6xl xs:text-3xl text-2xl md:mt-5 mt-2 font-semibold inline-flex items-center ">
@@ -104,16 +106,15 @@ export const CustomerLanding = () => {
         ref={(ref) => (sectionsRef.current[1] = ref)}
       >
         <h1 className="md:text-6xl text-2xl text-center text-white">
-          Optimize your <span className="text-primary_blue">Income</span>.
-          <br className="md:block hidden"></br>
-          All in one place under your control
+          Manage all your needs <br></br>from our{" "}
+          <span className="text-primary_blue">App</span>.
         </h1>
         <img src={asset4} className="md:w-4/12 xs:w-10/12" />
         <p className="md:text-xl text-base lg:w-4/12 text-[#9C9EB1] text-center">
-          Our platform offers providers an intuitive, easy-to-use interface for
-          scheduling services, tracking arrivals, and managing all your tasks
-          with ease. It's time to embrace convenience, optimize your operations,
-          and boost your income.
+          Welcome to seamless home management. Our intuitive, user-friendly app
+          is designed to simplify your life - schedule services, track arrivals,
+          and manage all your needs at the touch of a button. Embrace a new
+          standard of convenience, tailored to your lifestyle
         </p>
         <button
           onClick={Joinus}
@@ -203,128 +204,56 @@ export const CustomerLanding = () => {
           </div>
         </div>
       </div>
-
-      <div
-        className="bg-dark_blue pt-32 md:pb-56 pb-20 px-5 md:px-0 mt-16 md:mt- Appsection"
-        ref={(ref) => (sectionsRef.current[3] = ref)}
-      >
-        <div className="max-w-[1280px] mx-auto text-center">
-          <h3 className="text-primary_blue">Building Trust</h3>
-          <h1
-            className="md:text-7xl md:text-5xl text-4xl font-bold text-white mt-5"
-            style={{ lineHeight: "1.2" }}
-          >
-            Our Simple
-            <span className="text-primary_blue ">
-              {" "}
-              <br></br> 4-Step
+      <div className="max-w-[1280px] mx-auto px-5 md:px-0 mt-32">
+        <div
+          className="md:flex justify-between items-center mt-16 Appsection"
+          id="scrollAnimate"
+          ref={(ref) => (sectionsRef.current[2] = ref)}
+        >
+          <div className="md:w-6/12">
+            <img src={asset11} className="text-start " />
+          </div>
+          <div className="md:w-5/12 mt-10 md:mt-0">
+            <span className=" text-sm bg-light_purple mb-4 font-semibold px-3 py-1 rounded-md">
+              freedom from laundry
             </span>
-            &nbsp; Identity Verification Process
-          </h1>
+            <h2 className="text-3xl my-5">
+              <span className="font-bold">On-demand</span> service designed{" "}
+              <br></br>for you
+            </h2>
+            <p className="text-light_gray">
+              Make sure you select the perfect Tasker for your job by<br></br>
+              researching their reviews, expertise, and cost. Find a match that{" "}
+              <br></br>boasts all three of these criteria to ensure a successful
+              outcome!
+            </p>
+          </div>
+        </div>
 
-          <div className="md:flex justify-between item-center mt-24 ">
-            <div className="md:w-3/12 md:mr-10">
-              <div className="flex items-center justify-between">
-                <div className="w-16 p-5 bg-white rounded-full font-bold text-xl">
-                  1
-                </div>
-                <div className="md:w-8/12 w-9/12 h-[1px] bg-white"></div>
-              </div>
-              <h3 className="w-9/12 md:w-full ml-auto text-white text-start md:mt-10 ">
-                Application & PhoneScreen
-              </h3>
-              <p className="w-9/12 md:w-full ml-auto text-[#A0A1B1] text-start leading-8 mt-3">
-                Complete our brief online application
-              </p>
-            </div>
-
-            <div className="md:w-3/12 md:mr-10 mt-10 md:mt-0">
-              <div className="flex items-center justify-between ">
-                <div className="w-16 p-5 bg-white rounded-full font-bold text-xl">
-                  2
-                </div>
-                <div className="md:w-8/12 w-9/12 h-[1px] bg-white"></div>
-              </div>
-              <h3 className="w-9/12 md:w-full ml-auto text-white text-start md:mt-10">
-                ID Verification
-              </h3>
-              <p className="w-9/12 md:w-full ml-auto text-[#A0A1B1] text-start leading-8 mt-3">
-                Verify your personal details, choosing and photographing a valid
-                identification document, and confirming your identity with a
-                live selfie.
-              </p>
-            </div>
-
-            <div className="md:w-3/12 md:mr-10 mt-10 md:mt-0">
-              <div className="flex items-center justify-between md:mr-16">
-                <div className="w-16 p-5 bg-white rounded-full font-bold text-xl">
-                  3
-                </div>
-                <div className="md:w-8/12 w-9/12 h-[1px] bg-white"></div>
-              </div>
-              <h3 className="w-9/12 md:w-full ml-auto text-white text-start md:mt-10">
-                Safety Audit
-              </h3>
-              <p className="w-9/12 md:w-full ml-auto text-[#A0A1B1] text-start leading-8 mt-3">
-                Our system will cross-verify your ID and selfie, with the status
-                of your verification communicated within 24-48 hours. Privacy
-                and security are our utmost priority, ensuring a safe,
-                trustworthy environment
-              </p>
-            </div>
-
-            <div className="md:w-3/12 mt-10 md:mt-0">
-              <div className="flex items-center justify-between md:mr-16">
-                <div className="w-16 p-5 bg-green-600 rounded-full font-bold text-xl">
-                  <CheckIcon className="w-6 font-bold" />
-                </div>
-                <div className="md:w-8/12 w-9/12 h-[1px] bg-white"></div>
-              </div>
-              <h3 className="w-9/12 md:w-full ml-auto text-white text-start md:mt-10">
-                Start working
-              </h3>
-              <p className="w-9/12 md:w-full ml-auto text-[#A0A1B1] text-start leading-8 mt-3">
-                You´ll get jobs as soon as you provide the home services you are
-                looking to provide and your availability.
-              </p>
-            </div>
+        <div
+          className="md:flex justify-between items-center my-32 Appsection"
+          id="scrollAnimate"
+          ref={(ref) => (sectionsRef.current[2] = ref)}
+        >
+          <div className="md:w-5/12 lg:pl-16">
+            <span className=" text-sm bg-light_purple mb-4 font-semibold px-3 py-1 rounded-md">
+              24h turnaround time
+            </span>
+            <h2 className="text-3xl my-5">
+              <span className="font-bold">Schedule when it works</span> for
+              <br></br> you - as early as today
+            </h2>
+            <p className="text-light_gray">
+              Now is the time to find a schedule that firs your lifestyle!
+              <br></br> Get started today and make sure you stay on track
+            </p>
+          </div>
+          <div className="md:w-6/12">
+            <img src={asset12} className="text-start" />
           </div>
         </div>
       </div>
-
-      <div
-        className="bg-dark_blue  md:block hidden Appsection"
-        ref={(ref) => (sectionsRef.current[4] = ref)}
-      >
-        <div className="bg-primary_blue pt-32">
-          <div className="max-w-[1280px] mx-auto flex justify-between items-center">
-            <div className="w-3/12">
-              <h1 className="text-white text-7xl leading-[90px] ">
-                Join<br></br>us now
-              </h1>
-              <p className="text-white lg:w-12/12 text-lg mt-5">
-                Partner with us and gain access to a network of reliable
-                customers
-              </p>
-              <button
-                onClick={Joinus}
-                type="button"
-                className="mt-8 text-xl rounded-[50px] bg-white px-5 py-4 text-sm font-semibold text-black hover:text-white shadow-sm hover:bg-dark_blue focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-              >
-                Join us now
-              </button>
-            </div>
-            <div className="w-8/12 ">
-              <img src={asset10} className="w-[50rem] ml-auto -mt-56" />
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div
-        className="bg-dark_blue md:pt-20 px-5 md:px-0 Appsection"
-        ref={(ref) => (sectionsRef.current[5] = ref)}
-      >
+      <div className="bg-dark_blue md:pt-20 px-5 md:px-0 Appsection">
         <div className="max-w-[1280px] mx-auto ">
           <div className="md:flex justify-between items-start">
             <div className="md::w-4/12 mb-10 pt-10 md:pt-0">
@@ -580,4 +509,4 @@ export const CustomerLanding = () => {
     </div>
   );
 };
-export default CustomerLanding;
+export default AppLanding;
