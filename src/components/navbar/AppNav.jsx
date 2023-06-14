@@ -18,8 +18,9 @@ export const AppNavbar = ({ onClick }) => {
       <div className="  max-w-[1280px] w-full flex items-center justify-between mx-auto h-[95px]">
         <div className="flex justify-between w-full p">
           <div>
+          <a href="/">
             <img src={logo} className="w-48" />
-            
+            </a>
           </div>
           <div className="w-6/12 flex justify-end ">
             {/* <button
@@ -38,7 +39,9 @@ export const AppNavbar = ({ onClick }) => {
               </button>
             ) : (
               <button
-                onClick={()=>{Navigate("/provider")}}
+                onClick={() => {
+                  Navigate("/provider");
+                }}
                 type="button"
                 className="rounded-3xl bg-primary_blue px-5 py-3 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
               >

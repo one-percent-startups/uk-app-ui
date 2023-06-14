@@ -215,17 +215,19 @@ export const AppLanding = () => {
           </div>
           <div className="md:w-5/12 mt-10 md:mt-0">
             <span className=" text-sm bg-light_purple mb-4 font-semibold px-3 py-1 rounded-md">
-              freedom from laundry
+              Trustworthy
             </span>
             <h2 className="text-3xl my-5">
-              <span className="font-bold">On-demand</span> service designed{" "}
-              <br></br>for you
+              <span className="font-bold">Trustworthy </span> Service Providers:{" "}
+              <br></br> Verified Process
             </h2>
             <p className="text-light_gray">
-              Make sure you select the perfect Tasker for your job by<br></br>
-              researching their reviews, expertise, and cost. Find a match that{" "}
-              <br></br>boasts all three of these criteria to ensure a successful
-              outcome!
+              At the heart of our platform, security is paramount. Every
+              provider goes through an ID verification process. They provide
+              personal information, capture images of a valid ID, and confirm
+              their identity with a live selfie. Our system ensures these
+              details align, providing a secure, trustworthy service for you. A
+              simple process safeguarding your peace of mind
             </p>
           </div>
         </div>
@@ -237,15 +239,20 @@ export const AppLanding = () => {
         >
           <div className="md:w-5/12 lg:pl-16">
             <span className=" text-sm bg-light_purple mb-4 font-semibold px-3 py-1 rounded-md">
-              24h turnaround time
+              DO IT ALL
             </span>
             <h2 className="text-3xl my-5">
-              <span className="font-bold">Schedule when it works</span> for
-              <br></br> you - as early as today
+              Makes Life Easier for &nbsp;
+              <span className="font-bold">Companies</span> Too
             </h2>
             <p className="text-light_gray">
-              Now is the time to find a schedule that firs your lifestyle!
-              <br></br> Get started today and make sure you stay on track
+              Simplify property management with our seamless app designed for
+              Airbnb hosts, landlords, and real estate agencies. From routine
+              maintenance to complex repairs, our platform connects you with
+              verified professionals, providing real-time updates, easy
+              scheduling, and payments. Save time, reduce costs, and deliver
+              top-notch service to your clients. Optimize your property
+              management practices today with our Home Services App.
             </p>
           </div>
           <div className="md:w-6/12">
