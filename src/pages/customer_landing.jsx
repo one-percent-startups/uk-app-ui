@@ -13,7 +13,7 @@ import asset4 from "../assets/images/Rectangle1.png";
 import asset5 from "../assets/images/asset5.png";
 import asset6 from "../assets/images/Group83.png";
 import asset7 from "../assets/images/Group84.png";
-import asset8 from "../assets/images/Group66.png";
+import asset8 from "../assets/images/Group90.png";
 import asset9 from "../assets/images/asset9.png";
 import asset10 from "../assets/images/Group87.png";
 import asset11 from "../assets/images/Group19.png";
@@ -242,10 +242,10 @@ export const AppLanding = () => {
             </span>
             <h2 className="text-3xl my-5">
               Makes Life Easier for &nbsp;
-              <span className="font-bold">Also Companies</span> Too
+              <span className="font-bold"> Companies</span> Too
             </h2>
             <p className="text-light_gray">
-              Simplify property management with our seamless app designed for
+              Simplify property management with our seamless app ALSO designed for
               Airbnb hosts, landlords, and real estate agencies. From routine
               maintenance to complex repairs, our platform connects you with
               verified professionals, providing real-time updates, easy
