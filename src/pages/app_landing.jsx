@@ -11,9 +11,9 @@ import asset2 from "../assets/images/double-right.png";
 import asset3 from "../assets/images/Group81.png";
 import asset4 from "../assets/images/rectangle33.png";
 import asset5 from "../assets/images/asset5.png";
-import asset6 from "../assets/images/Group83.png";
+import asset6 from "../assets/images/Group73.png";
 import asset7 from "../assets/images/Group84.png";
-import asset8 from "../assets/images/Group66.png";
+import asset8 from "../assets/images/Group90.png";
 import asset9 from "../assets/images/asset9.png";
 import asset10 from "../assets/images/Group87.png";
 import lightLogo from "../assets/images/LogoWhite.png";
@@ -99,37 +99,39 @@ export const CustomerLanding = () => {
         </div>
       </div>
 
-      <div
-        className="bg-dark_blue flex flex-col justify-center items-center py-32 px-5 md:px-0 Appsection"
-        ref={(ref) => (sectionsRef.current[1] = ref)}
-      >
-        <h1 className="md:text-6xl text-2xl text-center text-white">
-          Optimize your <span className="text-primary_blue">Income</span>.
-          <br className="md:block hidden"></br>
-          All in one place under your control
-        </h1>
-        <img src={asset4} className="md:w-4/12 xs:w-10/12" />
-        <p className="md:text-xl text-base lg:w-4/12 text-[#9C9EB1] text-center">
-          Our platform offers providers an intuitive, easy-to-use interface for
-          scheduling services, tracking arrivals, and managing all your tasks
-          with ease. It's time to embrace convenience, optimize your operations,
-          and boost your income.
-        </p>
-        <button
-          onClick={Joinus}
-          type="button"
-          className="rounded-[50px] bg-primary_blue px-8 py-3 mt-10 mx-3 text-lg font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
-        >
-          Join Us Now
-        </button>
+      <div className="bg-dark_blue  py-24 px-5 md:px-0 ">
+        <div className="Appsection flex flex-col justify-center items-center py-4">
+          <h1
+            className="md:text-6xl text-2xl text-center text-white"
+            ref={(ref) => (sectionsRef.current[1] = ref)}
+          >
+            Optimize your <span className="text-primary_blue">Income</span>.
+            <br className="md:block hidden"></br>
+            All in one place under your control
+          </h1>
+          <img src={asset4} className="md:w-4/12 xs:w-10/12" />
+          <p className="md:text-xl text-base lg:w-4/12 text-[#9C9EB1] text-center">
+            Our platform offers providers an intuitive, easy-to-use interface
+            for scheduling services, tracking arrivals, and managing all your
+            tasks with ease. It's time to embrace convenience, optimize your
+            operations, and boost your income.
+          </p>
+          <button
+            onClick={Joinus}
+            type="button"
+            className="rounded-[50px] bg-primary_blue px-8 py-3 mt-10 mx-3 text-lg font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+          >
+            Join Us Now
+          </button>
+        </div>
       </div>
 
       <div
-        className="bg-white relative text-6xl max-w-[1280px] mx-auto md:flex justify-end z-1 px-5 md:px-0 Appsection"
+        className="pb-32 bg-white relative text-6xl max-w-[1280px] mx-auto md:flex justify-end z-1 px-5 md:px-0 Appsection"
         id="scrollAnimate"
         ref={(ref) => (sectionsRef.current[2] = ref)}
       >
-        <div className="md:absolute md:left-0 md:w-6/12 md:translate-y-2/3">
+        <div className="md:absolute md:left-0 md:w-6/12 md:translate-y-2/3 Appsection">
           <div className="flex md:items-start items-end justify-center pt-10 md:flex-col flex-row ">
             <h1 className="mt-4 text-black lg:text-8xl md:text-7xl text-4xl font-semibold inline-flex items-end ">
               Why{" "}
@@ -144,13 +146,13 @@ export const CustomerLanding = () => {
           </div>
         </div>
         <div className="w-12/12 md:h-[750px]  flex flex-col items-center md:items-end overflow-y-auto scrollbar scrollbar-thumb-gray-900 scrollbar-track-gray-100 scrollbar-none  z-10">
-          <div className="md:w-5/12  rounded-[55px] bg-[#F6F5F8] p-12 md:mt-48 mt-14">
+          {/* <div className="md:w-5/12  rounded-[55px] bg-[#F6F5F8] p-12 md:mt-48 mt-14">
             <h1 className="text-5xl md:text-7xl text-primary_blue">*</h1>
             <p className="md:text-3xl text-xl font-semibold">
               Our services save your time and reduce stress, allowing you to
               focus on what’s important.
             </p>
-          </div>
+          </div> */}
 
           <div className=" md:w-5/12  rounded-[55px] bg-[#E0F3FF] px-12 py-16 mt-5">
             <img src={asset6} className="w-8/12 mx-auto" />
@@ -158,13 +160,13 @@ export const CustomerLanding = () => {
               Amazing earnings
             </h2>
             <p className="md:text-base text-sm  text-[#666] text-center mt-3 ">
-              We pay $26+ per hour (excluding tips)
+              We pay £26+ per hour (excluding tips)
               <br className="md:block hidden"></br>Top partners earn more than
-              <br></br> $1500 a week
+              <br></br> £1500 a week
             </p>
           </div>
 
-          <div className="md:w-5/12  rounded-[55px] bg-[#F3EDFF] px-12 py-16 mt-5">
+          {/* <div className="md:w-5/12  rounded-[55px] bg-[#F3EDFF] px-12 py-16 mt-5">
             <img src={asset7} className="w-8/12 mx-auto" />
             <h2 className="md:text-3xl text-xl   mt-5 text-center font-semibold">
               Be your own boss
@@ -173,8 +175,8 @@ export const CustomerLanding = () => {
               You tell us where & when<br></br>We’ll fill up your time with
               bookings.
             </p>
-          </div>
-          <div className=" md:w-5/12  rounded-[55px] bg-[#FFF3E1] px-12 py-16 mt-5">
+          </div> */}
+          {/* <div className=" md:w-5/12  rounded-[55px] bg-[#FFF3E1] px-12 py-16 mt-5">
             <img src={asset8} className="w-8/12 mx-auto" />
             <h2 className="md:text-3xl text-xl   mt-5 text-center font-semibold">
               Best support
@@ -183,15 +185,15 @@ export const CustomerLanding = () => {
               We will fix any problem within<br></br>24 hours or provide a
               refund.
             </p>
-          </div>
-          <div className="md:w-5/12   rounded-[55px] bg-[#1E1E2E] p-12 mt-5">
+          </div> */}
+          {/* <div className="md:w-5/12   rounded-[55px] bg-[#1E1E2E] p-12 mt-5">
             <h1 className=" text-5xl text-primary_blue">*</h1>
             <p className="md:text-3xl text-xl text-white font-semibold">
               At Do It All we are focused on making home what it should be - a
               place you truly enjoy coming home
             </p>
-          </div>
-          <div className=" md:w-5/12 rounded-[55px] bg-[#F6F5F8] px-12 py-16 mt-5 md:mb-24">
+          </div> */}
+          <div className=" md:w-5/12 rounded-[55px] bg-[#F6F5F8] px-12 py-16 mt-5 md:mb-24 ">
             <img src={asset9} className="w-8/12 mx-auto" />
             <h2 className="md:text-3xl text-xl  mt-5 text-center font-semibold">
               All-in-one

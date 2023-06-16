@@ -16,13 +16,13 @@ export const AppNavbar = ({ onClick }) => {
   return (
     <div className="flex justify-center bg-[#DFE7FF] px-5 md:px-0">
       <div className="  max-w-[1280px] w-full flex items-center justify-between mx-auto h-[95px]">
-        <div className="flex justify-between w-full p">
+        <div className="flex justify-between items-center w-full p">
           <div>
-          <a href="/">
-            <img src={logo} className="w-48" />
+            <a href="/">
+              <img src={logo} className="w-48" />
             </a>
           </div>
-          <div className="w-6/12 flex justify-end ">
+          <div className="md:w-6/12 w-5/12 flex justify-end ">
             {/* <button
             type="button"
             className="rounded-md bg-transparent px-3.5 py-2.5 text-sm font-semibold text-gray-900 mr-3"

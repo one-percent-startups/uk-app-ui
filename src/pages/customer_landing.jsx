@@ -9,7 +9,7 @@ import {
 import asset1 from "../assets/images/Group82.png";
 import asset2 from "../assets/images/double-right.png";
 import asset3 from "../assets/images/Group81.png";
-import asset4 from "../assets/images/rectangle33.png";
+import asset4 from "../assets/images/Rectangle1.png";
 import asset5 from "../assets/images/asset5.png";
 import asset6 from "../assets/images/Group83.png";
 import asset7 from "../assets/images/Group84.png";
@@ -73,12 +73,12 @@ export const AppLanding = () => {
           className="max-w-[1280px] mx-auto px-5 md:px-0"
           ref={(ref) => (sectionsRef.current[0] = ref)}
         >
-          <div className="mt-20 text-center pb-20">
-            <h4 className="text-primary_blue md:text-normal text-sm font-bold capitalize">
+          <div className="mt-20 text-center pb-32">
+            <h4 className="text-primary_blue md:text-normal text-sm font-bold capitalize md:mb-8">
               LAUNCHING IN SEPTEMBER 2023
             </h4>
-            <div className="flex flex-col items-center">
-              <h1 className="w-100 mt-4 text-black lg:text-8xl md:text-6xl xs:text-3xl text-2xl font-semibold inline-flex items-baseline ">
+            <div className="flex flex-col items-center ">
+              <h1 className="mb-4 md:mb-8 w-100 mt-4 text-black lg:text-8xl md:text-6xl xs:text-3xl text-2xl font-semibold inline-flex items-baseline ">
                 Easy Living Starts Here
                 {/* <img src={asset1} className="w-32 h-14 mx-4" /> */}
               </h1>
@@ -94,22 +94,20 @@ export const AppLanding = () => {
                 </button>
               </h1>
             </div>
-            <div className="flex items-center justify-center mt-10">
+            <div className="flex items-center justify-center md:mt-20 mt-10">
               <img src={asset3} className="w-8/12 " />
             </div>
           </div>
         </div>
       </div>
 
-      <div
-        className="bg-dark_blue flex flex-col justify-center items-center py-32 px-5 md:px-0 Appsection"
-        ref={(ref) => (sectionsRef.current[1] = ref)}
-      >
-        <h1 className="md:text-6xl text-2xl text-center text-white">
+      <div className="bg-dark_blue  py-24 px-5 md:px-0 ">
+        <div className="Appsection flex flex-col justify-center items-center py-4">
+        <h1 className="md:text-6xl text-2xl text-center text-white"  ref={(ref) => (sectionsRef.current[1] = ref)}>
           Manage all your needs <br></br>from our{" "}
           <span className="text-primary_blue">App</span>.
         </h1>
-        <img src={asset4} className="md:w-4/12 xs:w-10/12" />
+        <img src={asset4} className="md:w-6/12 xs:w-10/12" />
         <p className="md:text-xl text-base lg:w-4/12 text-[#9C9EB1] text-center">
           Welcome to seamless home management. Our intuitive, user-friendly app
           is designed to simplify your life - schedule services, track arrivals,
@@ -123,10 +121,11 @@ export const AppLanding = () => {
         >
           Join Us Now
         </button>
+        </div>
       </div>
 
       <div
-        className="bg-white relative text-6xl max-w-[1280px] mx-auto md:flex justify-end z-1 px-5 md:px-0 Appsection"
+        className="pb-32 mb-32 bg-white relative text-6xl max-w-[1280px] mx-auto md:flex justify-end z-1 px-5 md:px-0 Appsection"
         id="scrollAnimate"
         ref={(ref) => (sectionsRef.current[2] = ref)}
       >
@@ -153,17 +152,17 @@ export const AppLanding = () => {
             </p>
           </div>
 
-          <div className=" md:w-5/12  rounded-[55px] bg-[#E0F3FF] px-12 py-16 mt-5">
+          {/* <div className=" md:w-5/12  rounded-[55px] bg-[#E0F3FF] px-12 py-16 mt-5">
             <img src={asset6} className="w-8/12 mx-auto" />
             <h2 className="md:text-3xl text-xl  mt-5 text-center font-semibold">
               Amazing earnings
             </h2>
             <p className="md:text-base text-sm  text-[#666] text-center mt-3 ">
-              We pay $26+ per hour (excluding tips)
+              We pay £26+ per hour (excluding tips)
               <br className="md:block hidden"></br>Top partners earn more than
-              <br></br> $1500 a week
+              <br></br> £1500 a week
             </p>
-          </div>
+          </div> */}
 
           <div className="md:w-5/12  rounded-[55px] bg-[#F3EDFF] px-12 py-16 mt-5">
             <img src={asset7} className="w-8/12 mx-auto" />
@@ -192,7 +191,7 @@ export const AppLanding = () => {
               place you truly enjoy coming home
             </p>
           </div>
-          <div className=" md:w-5/12 rounded-[55px] bg-[#F6F5F8] px-12 py-16 mt-5 md:mb-24">
+          {/* <div className=" md:w-5/12 rounded-[55px] bg-[#F6F5F8] px-12 py-16 mt-5 md:mb-24">
             <img src={asset9} className="w-8/12 mx-auto" />
             <h2 className="md:text-3xl text-xl  mt-5 text-center font-semibold">
               All-in-one
@@ -201,7 +200,7 @@ export const AppLanding = () => {
               Everything you need - in one app. Visit
               <br className="md:block hidden"></br>the App Store or Google Play.
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="max-w-[1280px] mx-auto px-5 md:px-0 mt-32">
@@ -243,7 +242,7 @@ export const AppLanding = () => {
             </span>
             <h2 className="text-3xl my-5">
               Makes Life Easier for &nbsp;
-              <span className="font-bold">Companies</span> Too
+              <span className="font-bold">Also Companies</span> Too
             </h2>
             <p className="text-light_gray">
               Simplify property management with our seamless app designed for
